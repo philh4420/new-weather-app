@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search-container">
+      <input type="text" id="cityInput" placeholder="Enter city...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Current Weather -->
+    <div class="forecast-container">
+      <div id="weatherInfo" class="forecast-info">
+        <!-- Current weather information will be displayed here -->
+      </div>
+    </div>
+
+    <!-- 24-Hour Forecast -->
+    <div class="forecast-container">
+      <div id="forecast24Hours" class="forecast-info">
+        <!-- 24-hour forecast will be displayed here -->
+      </div>
+    </div>
+
+    <!-- 3-Day Forecast -->
+    <div class="forecast-container">
+      <div id="forecast3Days" class="forecast-info">
+        <!-- 3-day forecast will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
